@@ -2,9 +2,11 @@
 /shelf/
 /workspace.xml
 
-/.idea/
-
 ### IntelliJ IDEA ###
-/out/**
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/OpenBootCampGit.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
 !**/src/main/**/out/
 !**/src/test/**/out/
