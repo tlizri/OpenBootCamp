@@ -1,10 +1,7 @@
-public class Main {
+package resource;
 
-    public static float sumar(float a, float b, float c) {
-        return a + b + c;
-    }
-
-    public static void main(String[] args) {
+public class Ejercicio3 {
+    public static void main(){
         //Parte1
         float resultado = sumar(1.24f, 2.98f, 3.44f);
         System.out.println(resultado);
@@ -13,12 +10,15 @@ public class Main {
         miCoche.IncrementoPuertas(1);
         System.out.println(miCoche.puertas);
     }
+    public static float sumar(float a, float b, float c) {
+        return a + b + c;
+    }
 }
 
 class Coche {
-    public int puertas = 0;
+    int puertas = 0;
 
-    public void IncrementoPuertas (int puertas){
+    public void IncrementoPuertas(int puertas) {
         this.puertas += puertas;
     }
 }
