@@ -7,6 +7,6 @@ Para practicar la encapsulación:
 
 * Crear gets y sets de cada propiedad.
 
- *Crear un objeto persona en el main.
+* Crear un objeto persona en el main.
 
 * Utiliza los gets y sets para darle valores a las propiedades edad, nombre y telefono, por último muéstralas por consola.
