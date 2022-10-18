@@ -1,8 +1,8 @@
-public class Main {
-    public static void main(String[] args) {
+package resource;
 
-        //Parte condicionales
-        int numeroIf = 50;
+public class Ejercicio4 {
+    public static void condicionales(int num){
+        int numeroIf = num;
         if(numeroIf > 0){
             System.out.println("Es positivo");
         } else if (numeroIf < 0) {
@@ -10,28 +10,28 @@ public class Main {
         } else {
             System.out.println("Es cero");
         }
-
-        //Parte bucle while
-        int numeroWhile = 0;
+    }
+    public static void bucleWhile(int num){
+        int numeroWhile = num;
         while(numeroWhile < 3){
             numeroWhile++;
             System.out.println(numeroWhile);
         }
-
-        //Parte bucle do-while
-        numeroWhile = 2;
+    }
+    public static void bucleDoWhile(int num){
+        int numeroWhile = num;
         do {
             System.out.println(numeroWhile);
             numeroWhile++;
         } while (numeroWhile < 3);
-
-        //Parte bucle for
+    }
+    public static void bucleFor(){
         for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
             System.out.println(numeroFor);
         }
-
-        //Parte switch-case
-        String estacion = "PRIMAVERA";
+    }
+    public static void switchCase(String season){
+        String estacion = season;
         switch (estacion) {
             case "PRIMAVERA":
                 System.out.println("Es primavera");
