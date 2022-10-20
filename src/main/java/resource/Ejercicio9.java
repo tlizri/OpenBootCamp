@@ -26,9 +26,9 @@ public class Ejercicio9 {
     }
 }
  class Persona {
-    int edad;
-    String nombre;
-    String telefono;
+    private int edad;
+    private String nombre;
+    private String telefono;
 
     public Persona() {
         edad = -1;
@@ -56,7 +56,7 @@ public class Ejercicio9 {
  }
 
  class Cliente extends Persona {
-    float credito;
+    private float credito;
 
     public void Cliente() {
         credito = -1;
@@ -70,7 +70,7 @@ public class Ejercicio9 {
  }
 
  class Trabajador extends Persona {
-    float salario;
+    private float salario;
     public void Trabajador (){
         float salario = -1;
     }
